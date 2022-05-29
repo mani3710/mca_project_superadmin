@@ -61,7 +61,7 @@ const FormPage = () => {
                                 </div>
 
                                 <input
-                                    style={{ color: "#000" }}
+                                    style={{ color: "#fff", backgroundColor: "#000" }}
                                     value={username}
                                     onChange={(e) => {
                                         setUsername(e.target.value);
@@ -74,6 +74,7 @@ const FormPage = () => {
                                     <span className="input-group-text"><i className="fas fa-key"></i></span>
                                 </div>
                                 <input
+                                    style={{ color: "#fff", backgroundColor: "#000" }}
                                     value={password}
                                     onChange={(e) => {
                                         setPassword(e.target.value);
